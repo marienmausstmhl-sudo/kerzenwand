@@ -1,4 +1,6 @@
-    document.addEventListener('DOMContentLoaded', (event) => {
+console.log("Kerzenwand JS geladen");
+
+document.addEventListener('DOMContentLoaded', (event) => {
 
     const SHEET_URL =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vTy5sQ05tYpxXhVsDSeKNem3BQYwYCHzu-93mNh_L_pD-MP2op9ITB6MA6nhk1hubHAK2637YNteIhw/pub?gid=50546960&single=true&output=csv";
@@ -285,3 +287,4 @@
     ladeKerzen();
     setInterval(ladeKerzen, 120000);
 });
+
